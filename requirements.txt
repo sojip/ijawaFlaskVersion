@@ -1,5 +1,4 @@
 flask
-werkzeug.exceptions
 email.mime.multipart
 email.mime.text
 email
