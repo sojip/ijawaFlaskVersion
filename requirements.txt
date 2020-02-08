@@ -1,7 +1,4 @@
 flask
-email.mime.multipart
-email.mime.text
-email
 smtplib
 ssl
 gunicorn
