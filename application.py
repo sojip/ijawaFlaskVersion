@@ -20,7 +20,7 @@ def contact():
         content = request.form['message']
         #send files to email address for test only
         port = 465
-        password = "ijawa@12"
+        password = "fullstack@145"
         smtp_server = "smtp.gmail.com"
         sender_email = "comptetestijawa@gmail.com"  
         receiver_email = "sojipquantin@gmail.com"
