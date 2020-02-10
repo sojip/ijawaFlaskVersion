@@ -23,13 +23,13 @@ def contact():
         password = "fullstack@145"
         smtp_server = "smtp.gmail.com"
         sender_email = "comptetestijawa@gmail.com"  
-        receiver_email = "sojipquantin@gmail.com"
+        receiver_email = "contact@ijawatech.com"
         message = MIMEMultipart()
         message["Subject"] = "New Message From ijawatech.com"
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
-            New message from ijatech.com : 
+            New message from ijawatech.com : 
             Name : """ + name + """
             phone : """ + phone + """
             email : """ + email  + """
